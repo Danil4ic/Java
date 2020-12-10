@@ -347,40 +347,6 @@ public class MagazineDB {
 	            if(rs == 0) throw new IllegalArgumentException("article not found");
 	   		   }
 	   }
-	  
-	   public static TreeSet<String> writersFromOtherarticle(String namearticle) throws SQLException, ClassNotFoundException {
-		   Connection conn = getNewConnection();
-	       String prepQuerry1="Select writer_name from writers t left join article d"
-	    		   +"on t.article_id!=d.article_id and d.article_name= ?;";
-		   PreparedStatement pr1 = conn.prepareStatement(prepQuerry1);
-	       pr1.setString(1, namearticle);
-		   ResultSet rs1=pr1.executeQuery();
-	       TreeSet<String> writers =new TreeSet<>();
-	       while(rs1.next()) {
-	    	   writers.add(rs1.getString("writers_name"));
-	       }
-		   return writers;   
-	   }
-	   
-	   public static Magazine getmagazineByarticle (Article art) throws SQLException, ClassNotFoundException {
-		   Connection conn = getNewConnection();
-	       String prepQuerry1="Select * from article a inner join  magazine m "
-	       		+ "on m.magazine_id!=a.magazine_id and a.article_name= ?;";
-	       PreparedStatement pr1 = conn.prepareStatement(prepQuerry1);
-	       pr1.setString(1, art.getTitle());
-	       ResultSet rs1=pr1.executeQuery();
-	       Magazine mag1 = new Magazine();
-	       if(rs1.next()) {
-	    	 mag1.setTitle(rs1.getString("magazine_title"));
-	    	 mag1.setMagazineID(rs1.getInt("magazine_id"));
-	    	 TreeSet<Article> art1=new TreeSet<>();
-	    	 art1=getArticlesFromMagazine(mag1);
-	    	 for(Article art2 : art1) {
-	    		 mag1.addArticle(art2);
-	    	 }
-	       	}
-		   return mag1;   
-	   }
 	   
 	   private static void drop() throws SQLException, ClassNotFoundException {
 	        Connection conn = getNewConnection();
