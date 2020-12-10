@@ -179,13 +179,5 @@ public class Article implements Comparable{
 				return new Article(this);
 			}
 	}
-			
-		
-	///////////////////////////////////////////////////
-
-
-
-
-	public static void main(String[] args) {
-	 }
+	
 }
