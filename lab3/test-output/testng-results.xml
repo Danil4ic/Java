@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53" started-at="2017-11-26T09:52:56Z" finished-at="2017-11-26T09:52:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53" started-at="2017-11-26T09:52:56Z" finished-at="2017-11-26T09:52:56Z">
+      <class name="test.TestMagazine">
+        <test-method status="PASS" signature="counMagazinePages()[pri:0, instance:test.TestMagazine@215be6bb]" name="counMagazinePages" duration-ms="20" started-at="2017-11-26T11:52:56Z" finished-at="2017-11-26T11:52:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- counMagazinePages -->
+        <test-method status="PASS" signature="countTest()[pri:0, instance:test.TestMagazine@215be6bb]" name="countTest" duration-ms="2" started-at="2017-11-26T11:52:56Z" finished-at="2017-11-26T11:52:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countTest -->
+        <test-method status="PASS" signature="findByWriterTest()[pri:0, instance:test.TestMagazine@215be6bb]" name="findByWriterTest" duration-ms="2" started-at="2017-11-26T11:52:56Z" finished-at="2017-11-26T11:52:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findByWriterTest -->
+        <test-method status="PASS" signature="inputTest()[pri:0, instance:test.TestMagazine@215be6bb]" name="inputTest" duration-ms="2" started-at="2017-11-26T11:52:56Z" finished-at="2017-11-26T11:52:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputTest -->
+      </class> <!-- test.TestMagazine -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
