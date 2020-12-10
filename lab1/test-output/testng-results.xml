@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44" started-at="2017-11-26T08:40:07Z" finished-at="2017-11-26T08:40:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44" started-at="2017-11-26T08:40:07Z" finished-at="2017-11-26T08:40:07Z">
+      <class name="test.TestArticle">
+        <test-method status="PASS" signature="TestGetCount(java.lang.String, java.util.Set, java.time.LocalDate, int, int)[pri:0, instance:test.TestArticle@5dfcfece]" name="TestGetCount" duration-ms="11" started-at="2017-11-26T10:40:07Z" data-provider="countProvider" finished-at="2017-11-26T10:40:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sport]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Franko, Shevchenko, Ykrainka]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2017-10-10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetCount -->
+        <test-method status="PASS" signature="TestGetCount(java.lang.String, java.util.Set, java.time.LocalDate, int, int)[pri:0, instance:test.TestArticle@5dfcfece]" name="TestGetCount" duration-ms="2" started-at="2017-11-26T10:40:07Z" data-provider="countProvider" finished-at="2017-11-26T10:40:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Music]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Petro]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2017-10-10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetCount -->
+        <test-method status="PASS" signature="inputTest(java.lang.String, java.lang.String)[pri:0, instance:test.TestArticle@5dfcfece]" name="inputTest" duration-ms="1" started-at="2017-11-26T10:40:07Z" data-provider="inputProvider" finished-at="2017-11-26T10:40:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputTest -->
+      </class> <!-- test.TestArticle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
