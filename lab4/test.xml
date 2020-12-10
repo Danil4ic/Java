@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BookCatalogue>
+    <Book>
+        <title>Yogasana Vijnana: the Science of Yoga</title>
+        <Author>Dhirendra Brahmachari</Author>
+        <Date>1966</Date>
+        <pages>11</pages>
+    </Book>
+    <Book>
+        <title>The First and Last Freedom</title>
+        <Author>J. Krishnamurti</Author>
+        <Date>1954</Date>
+        <pages>12</pages>
+    </Book>
+</BookCatalogue>
