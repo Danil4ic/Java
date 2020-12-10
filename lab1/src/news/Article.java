@@ -118,12 +118,4 @@ public class Article{
 		else return 1;
 	}
 	
-	////////////////////////////////////////////////////
-
-
-
-
-
-	public static void main(String[] args) {
-	 }
 }
